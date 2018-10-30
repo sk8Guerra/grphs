@@ -7,9 +7,14 @@ $(document).ready( function () {
       target: '#quadratic',
        xAxis: {domain: [-2, 12]},
        data: [{
-         fn: func,
+         fn: '3 + sin(x)',
          range: [2, 8]
-       }]
+       },
+       {
+         fn: 'x^2',
+         range: [10, 20]
+       }
+      ]
     } );
 
    } );
