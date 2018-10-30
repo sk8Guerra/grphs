@@ -10,6 +10,8 @@ $(document).ready( function () {
          fn: '3 + sin(x)',
          range: [2, 8]
        },
+
+       
        {
          fn: 'x^2',
          range: [10, 20]
